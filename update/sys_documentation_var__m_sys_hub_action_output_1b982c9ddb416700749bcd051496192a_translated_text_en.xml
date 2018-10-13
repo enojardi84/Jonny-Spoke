@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="translated_text" label="Translated Text" language="en" table="var__m_sys_hub_action_output_1b982c9ddb416700749bcd051496192a">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>translated_text</element>
+            <help/>
+            <hint/>
+            <label>Translated Text</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_output_1b982c9ddb416700749bcd051496192a</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>jonatan.jardi@servicenow.com</sys_created_by>
+            <sys_created_on>2018-10-08 11:48:50</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>c0a82c9ddb416700749bcd05149619c2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Translated Text</sys_name>
+            <sys_package display_value="Jonny Spoke" source="x_snc_jonny_spoke">2a2ed059db74a7005c378a8b3a96193b</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Jonny Spoke">2a2ed059db74a7005c378a8b3a96193b</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_output_1b982c9ddb416700749bcd051496192a_translated_text_en</sys_update_name>
+            <sys_updated_by>jonatan.jardi@servicenow.com</sys_updated_by>
+            <sys_updated_on>2018-10-08 11:48:50</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

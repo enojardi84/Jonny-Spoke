@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_logic">
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">ccb16ef2dbcde3405c378a8b3a96190f</block>
+        <comment/>
+        <connected_to/>
+        <display_text/>
+        <flow display_value="Auto Translation">29a32eb6dbcde3405c378a8b3a96196c</flow>
+        <inputs/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>3</order>
+        <outputs_assigned>translated_text,detected_language</outputs_assigned>
+        <outputs_to_assign/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>jonatan.jardi@servicenow.com</sys_created_by>
+        <sys_created_on>2018-10-13 12:37:15</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>fda32eb6dbcde3405c378a8b3a9619a4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Jonny Spoke" source="x_snc_jonny_spoke">2a2ed059db74a7005c378a8b3a96193b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Jonny Spoke">2a2ed059db74a7005c378a8b3a96193b</sys_scope>
+        <sys_update_name>sys_hub_flow_logic_fda32eb6dbcde3405c378a8b3a9619a4</sys_update_name>
+        <sys_updated_by>jonatan.jardi@servicenow.com</sys_updated_by>
+        <sys_updated_on>2018-10-13 12:37:15</sys_updated_on>
+        <ui_id>b4ff3650-63b9-47aa-8e97-268309245c2a</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=fda32eb6dbcde3405c378a8b3a9619a4"/>
+    <sys_element_mapping action="delete_multiple" query="id=fda32eb6dbcde3405c378a8b3a9619a4"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>detected_language</field>
+        <id>fda32eb6dbcde3405c378a8b3a9619a4</id>
+        <sys_created_by>jonatan.jardi@servicenow.com</sys_created_by>
+        <sys_created_on>2018-10-13 12:37:15</sys_created_on>
+        <sys_id>bda32eb6dbcde3405c378a8b3a9619a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jonatan.jardi@servicenow.com</sys_updated_by>
+        <sys_updated_on>2018-10-13 12:37:15</sys_updated_on>
+        <table>var__m_sys_hub_flow_output_29a32eb6dbcde3405c378a8b3a96196c</table>
+        <value>{{20d31682-dbe1-429f-8387-a6378775e30d.detected_language}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>translated_text</field>
+        <id>fda32eb6dbcde3405c378a8b3a9619a4</id>
+        <sys_created_by>jonatan.jardi@servicenow.com</sys_created_by>
+        <sys_created_on>2018-10-13 12:37:15</sys_created_on>
+        <sys_id>71a32eb6dbcde3405c378a8b3a9619a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jonatan.jardi@servicenow.com</sys_updated_by>
+        <sys_updated_on>2018-10-13 12:37:15</sys_updated_on>
+        <table>var__m_sys_hub_flow_output_29a32eb6dbcde3405c378a8b3a96196c</table>
+        <value>{{8131966b-f4fa-404d-b6d9-531f35caabb0.translated_text}}</value>
+    </sys_element_mapping>
+</record_update>

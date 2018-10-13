@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>test_jonny_flow</internal_name>
+        <label_cache>[{"name":"Created or Updated_1.current","label":"Trigger➛Incident Record","reference":"incident","reference_display":"Incident","type":"reference","base_type":"reference"},{"name":"afa6d78f-2ebd-493c-99e4-d31acf59d165.task","label":"4➛task","reference":"task","reference_display":"Task","type":"reference","base_type":"reference"},{"name":"ef6445a9-e755-4188-8bea-69559936019a.Record.short_description","label":"1➛Incident Record➛Short description","reference":"","reference_display":"Short description","type":"string","base_type":"string","parent_table_name":"incident","column_name":"short_description"},{"name":"ef6445a9-e755-4188-8bea-69559936019a.Table","label":"1➛Incident Table","reference":"incident","reference_display":"Incident","type":"table_name","base_type":"table_name"},{"name":"ef6445a9-e755-4188-8bea-69559936019a.Record","label":"1➛Incident Record","reference":"incident","reference_display":"Incident","type":"reference","base_type":"reference"},{"name":"6f725820-bb90-4a49-a788-ed7df36a0df6.score","label":"2➛Score","reference_display":"Score","type":"float","base_type":"float"},{"name":"e883d134-caf0-4f0e-8ac0-5a95010fca8b.here_s_something","label":"3➛Here\u0027s Something","reference_display":"Here\u0027s Something","type":"string","base_type":"string"},{"name":"32704017-33d6-4614-89f2-5a830f158682.translated_text","label":"1➛Translated Text","reference_display":"Translated Text","type":"string","base_type":"string"},{"name":"c67afc16-ec74-49be-bfef-9608b6b2b35f.Records","label":"3➛Records","reference_display":"Records","type":"records","base_type":"records"},{"name":"c67afc16-ec74-49be-bfef-9608b6b2b35f.Table","label":"3➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"c67afc16-ec74-49be-bfef-9608b6b2b35f.Count","label":"3➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"a0da2e7b-e067-484d-b0b8-acf12ae3d1df.Record","label":"3➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"a0da2e7b-e067-484d-b0b8-acf12ae3d1df.Table","label":"3➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"Created or Updated_1.current.short_description","label":"Trigger➛Incident Record➛Short description","reference":"","reference_display":"Short description","type":"string","base_type":"string","parent_table_name":"incident","column_name":"short_description"}]</label_cache>
+        <master>true</master>
+        <name>Test Jonny Flow</name>
+        <outputs/>
+        <parent_flow/>
+        <remote_trigger_id/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>jonatan.jardi@servicenow.com</sys_created_by>
+        <sys_created_on>2018-10-06 13:44:48</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>03ff6ee4db09af005c378a8b3a961979</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test Jonny Flow</sys_name>
+        <sys_package display_value="Jonny Spoke" source="x_snc_jonny_spoke">2a2ed059db74a7005c378a8b3a96193b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Jonny Spoke">2a2ed059db74a7005c378a8b3a96193b</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_03ff6ee4db09af005c378a8b3a961979</sys_update_name>
+        <sys_updated_by>jonatan.jardi@servicenow.com</sys_updated_by>
+        <sys_updated_on>2018-10-06 13:44:48</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_variable_value action="delete_multiple" query="document_key=03ff6ee4db09af005c378a8b3a961979"/>
+</record_update>

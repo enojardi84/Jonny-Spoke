@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_flow_subflow_plan">
+    <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
+        <plan>com.snc.process_flow.engine.ProcessPlan@b25110</plan>
+        <plan_id display_value="Auto Translation">82a756fadb8de3405c378a8b3a9619ea</plan_id>
+        <snapshot>29a32eb6dbcde3405c378a8b3a96196c</snapshot>
+        <sys_class_name>sys_flow_subflow_plan</sys_class_name>
+        <sys_created_by>jonatan.jardi@servicenow.com</sys_created_by>
+        <sys_created_on>2018-10-13 12:37:17</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>6ea36eb6dbcde3405c378a8b3a961902</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>82a756fadb8de3405c378a8b3a9619ea</sys_name>
+        <sys_package display_value="Jonny Spoke" source="x_snc_jonny_spoke">2a2ed059db74a7005c378a8b3a96193b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Jonny Spoke">2a2ed059db74a7005c378a8b3a96193b</sys_scope>
+        <sys_update_name>sys_flow_subflow_plan_6ea36eb6dbcde3405c378a8b3a961902</sys_update_name>
+        <sys_updated_by>jonatan.jardi@servicenow.com</sys_updated_by>
+        <sys_updated_on>2018-10-13 12:37:17</sys_updated_on>
+    </sys_flow_subflow_plan>
+</record_update>

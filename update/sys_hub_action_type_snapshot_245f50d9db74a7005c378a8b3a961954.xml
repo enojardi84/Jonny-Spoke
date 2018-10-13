@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_snapshot">
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>my_action</internal_name>
+        <label_cache>[{"name":"{{action.message}}","label":"action➛Message","type":"action","ref":""}]</label_cache>
+        <master>true</master>
+        <name>Log Something</name>
+        <outputs/>
+        <parent_action/>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>jonatan.jardi@servicenow.com</sys_created_by>
+        <sys_created_on>2018-09-26 00:52:29</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>245f50d9db74a7005c378a8b3a961954</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Log Something</sys_name>
+        <sys_package display_value="Jonny Spoke" source="x_snc_jonny_spoke">2a2ed059db74a7005c378a8b3a96193b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Jonny Spoke">2a2ed059db74a7005c378a8b3a96193b</sys_scope>
+        <sys_update_name>sys_hub_action_type_snapshot_245f50d9db74a7005c378a8b3a961954</sys_update_name>
+        <sys_updated_by>jonatan.jardi@servicenow.com</sys_updated_by>
+        <sys_updated_on>2018-10-06 12:18:20</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_variable_value action="delete_multiple" query="document_key=245f50d9db74a7005c378a8b3a961954"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>245f50d9db74a7005c378a8b3a961954</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jonatan.jardi@servicenow.com</sys_created_by>
+        <sys_created_on>2018-10-03 01:42:09</sys_created_on>
+        <sys_id>80dda46fdb3ceb005c378a8b3a9619b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jonatan.jardi@servicenow.com</sys_updated_by>
+        <sys_updated_on>2018-10-03 01:42:09</sys_updated_on>
+        <value>Algo</value>
+        <variable display_value="">04dda46fdb3ceb005c378a8b3a9619a9</variable>
+    </sys_variable_value>
+</record_update>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <annotation/>
+        <category display_value="Google Translate API">8035c6e4db85af005c378a8b3a961910</category>
+        <copied_from>b4450ae4db85af005c378a8b3a96194b</copied_from>
+        <copied_from_name>Translate Text</copied_from_name>
+        <description>Allows you to detect language of a text using the Google Translate API</description>
+        <internal_name>detect_language</internal_name>
+        <label_cache>[{"name":"{{action.text_to_translate}}","label":"action➛Text","type":"action","ref":""},{"name":"{{step[f3a7da16-02b3-440c-bab5-65d47c22ef8c].u_key}}","label":"step➛Detect➛Key","type":"step","ref":""},{"name":"{{step[58be475c-ca17-459d-8432-2b03e3e9c399].d}}","label":"step➛Parse➛d","type":"step","ref":""},{"name":"{{step[58be475c-ca17-459d-8432-2b03e3e9c399].de}}","label":"step➛Parse➛de","type":"step","ref":""},{"name":"{{step[58be475c-ca17-459d-8432-2b03e3e9c399].det}}","label":"step➛Parse➛det","type":"step","ref":""},{"name":"{{step[58be475c-ca17-459d-8432-2b03e3e9c399].dete}}","label":"step➛Parse➛dete","type":"step","ref":""},{"name":"{{step[58be475c-ca17-459d-8432-2b03e3e9c399].detec}}","label":"step➛Parse➛detec","type":"step","ref":""},{"name":"{{step[58be475c-ca17-459d-8432-2b03e3e9c399].detect}}","label":"step➛Parse➛detect","type":"step","ref":""},{"name":"{{step[58be475c-ca17-459d-8432-2b03e3e9c399].detecte}}","label":"step➛Parse➛detecte","type":"step","ref":""},{"name":"{{step[58be475c-ca17-459d-8432-2b03e3e9c399].detected}}","label":"step➛Parse➛detected","type":"step","ref":""},{"name":"{{step[58be475c-ca17-459d-8432-2b03e3e9c399].detectedL}}","label":"step➛Parse➛detectedL","type":"step","ref":""},{"name":"{{step[58be475c-ca17-459d-8432-2b03e3e9c399].detectedLa}}","label":"step➛Parse➛detectedLa","type":"step","ref":""},{"name":"{{step[58be475c-ca17-459d-8432-2b03e3e9c399].detectedLan}}","label":"step➛Parse➛detectedLan","type":"step","ref":""},{"name":"{{step[58be475c-ca17-459d-8432-2b03e3e9c399].detectedLang}}","label":"step➛Parse➛detectedLang","type":"step","ref":""},{"name":"{{step[58be475c-ca17-459d-8432-2b03e3e9c399].detectedLangu}}","label":"step➛Parse➛detectedLangu","type":"step","ref":""},{"name":"{{step[58be475c-ca17-459d-8432-2b03e3e9c399].detectedLangua}}","label":"step➛Parse➛detectedLangua","type":"step","ref":""},{"name":"{{step[58be475c-ca17-459d-8432-2b03e3e9c399].detectedLanguag}}","label":"step➛Parse➛detectedLanguag","type":"step","ref":""},{"name":"{{step[58be475c-ca17-459d-8432-2b03e3e9c399].detectedLanguage}}","label":"step➛Parse➛detectedLanguage","type":"step","ref":""},{"name":"{{step[f3a7da16-02b3-440c-bab5-65d47c22ef8c].response_body}}","label":"step➛Detect➛Response Body","type":"step","ref":""}]</label_cache>
+        <latest_snapshot>fde4eef6dbcde3405c378a8b3a9619e2</latest_snapshot>
+        <master_snapshot>be2c9efedb8de3405c378a8b3a9619a4</master_snapshot>
+        <name>Detect Language</name>
+        <outputs/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>jonatan.jardi@servicenow.com</sys_created_by>
+        <sys_created_on>2018-10-13 11:39:20</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2d665ebadb8de3405c378a8b3a961930</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>Detect Language</sys_name>
+        <sys_package display_value="Jonny Spoke" source="x_snc_jonny_spoke">2a2ed059db74a7005c378a8b3a96193b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Jonny Spoke">2a2ed059db74a7005c378a8b3a96193b</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_2d665ebadb8de3405c378a8b3a961930</sys_update_name>
+        <sys_updated_by>jonatan.jardi@servicenow.com</sys_updated_by>
+        <sys_updated_on>2018-10-13 12:42:44</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_variable_value action="delete_multiple" query="document_key=2d665ebadb8de3405c378a8b3a961930"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>2d665ebadb8de3405c378a8b3a961930</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jonatan.jardi@servicenow.com</sys_created_by>
+        <sys_created_on>2018-10-13 12:00:46</sys_created_on>
+        <sys_id>5b4b92fedb8de3405c378a8b3a96196d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>jonatan.jardi@servicenow.com</sys_updated_by>
+        <sys_updated_on>2018-10-13 12:04:28</sys_updated_on>
+        <value/>
+        <variable display_value="">77ea5ebedb8de3405c378a8b3a961966</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=2d665ebadb8de3405c378a8b3a961930"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>detected_language</field>
+        <id>2d665ebadb8de3405c378a8b3a961930</id>
+        <sys_created_by>jonatan.jardi@servicenow.com</sys_created_by>
+        <sys_created_on>2018-10-13 11:59:10</sys_created_on>
+        <sys_id>80fa5ebedb8de3405c378a8b3a961986</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>jonatan.jardi@servicenow.com</sys_updated_by>
+        <sys_updated_on>2018-10-13 12:04:28</sys_updated_on>
+        <table>var__m_sys_hub_action_output_2d665ebadb8de3405c378a8b3a961930</table>
+        <value>{{step[58be475c-ca17-459d-8432-2b03e3e9c399].detectedLanguage}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>translated_text</field>
+        <id>2d665ebadb8de3405c378a8b3a961930</id>
+        <sys_created_by>jonatan.jardi@servicenow.com</sys_created_by>
+        <sys_created_on>2018-10-13 11:39:24</sys_created_on>
+        <sys_id>1a665ebadb8de3405c378a8b3a9619f4</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>jonatan.jardi@servicenow.com</sys_updated_by>
+        <sys_updated_on>2018-10-13 11:44:09</sys_updated_on>
+        <table>var__m_sys_hub_action_output_2d665ebadb8de3405c378a8b3a961930</table>
+        <value>{{step[58be475c-ca17-459d-8432-2b03e3e9c399].detectedLanguage}}</value>
+    </sys_element_mapping>
+</record_update>

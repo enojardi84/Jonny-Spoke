@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_snapshot">
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <annotation/>
+        <category display_value="Google Translate API">8035c6e4db85af005c378a8b3a961910</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Allows you to translate text using the Google Translate API</description>
+        <internal_name>translate_something</internal_name>
+        <label_cache>[{"name":"{{action.source_language}}","label":"action➛Source Language","type":"action","ref":""},{"name":"{{action.target_language}}","label":"action➛Target Language","type":"action","ref":""},{"name":"{{action.text_to_translate}}","label":"action➛Text","type":"action","ref":""},{"name":"{{step[b99eeed7-f1be-4aff-a02d-ad9ecb62d773].u_key}}","label":"step➛Translate➛Key","type":"step","ref":""},{"name":"{{step[b99eeed7-f1be-4aff-a02d-ad9ecb62d773].response_body}}","label":"step➛Translate➛Response Body","type":"step","ref":""},{"name":"{{step[1f73b712-932a-47df-9dd5-646d1214ec3c].t}}","label":"Parsestep➛➛t","type":"step","ref":""},{"name":"{{step[1f73b712-932a-47df-9dd5-646d1214ec3c].tr}}","label":"Parsestep➛➛tr","type":"step","ref":""},{"name":"{{step[1f73b712-932a-47df-9dd5-646d1214ec3c].tra}}","label":"Parsestep➛➛tra","type":"step","ref":""},{"name":"{{step[1f73b712-932a-47df-9dd5-646d1214ec3c].tran}}","label":"Parsestep➛➛tran","type":"step","ref":""},{"name":"{{step[1f73b712-932a-47df-9dd5-646d1214ec3c].trans}}","label":"Parsestep➛➛trans","type":"step","ref":""},{"name":"{{step[1f73b712-932a-47df-9dd5-646d1214ec3c].transl}}","label":"Parsestep➛➛transl","type":"step","ref":""},{"name":"{{step[1f73b712-932a-47df-9dd5-646d1214ec3c].transla}}","label":"Parsestep➛➛transla","type":"step","ref":""},{"name":"{{step[1f73b712-932a-47df-9dd5-646d1214ec3c].translat}}","label":"Parsestep➛➛translat","type":"step","ref":""},{"name":"{{step[1f73b712-932a-47df-9dd5-646d1214ec3c].translate}}","label":"Parsestep➛➛translate","type":"step","ref":""},{"name":"{{step[1f73b712-932a-47df-9dd5-646d1214ec3c].translated}}","label":"Parsestep➛➛translated","type":"step","ref":""},{"name":"{{step[1f73b712-932a-47df-9dd5-646d1214ec3c].translatedT}}","label":"Parsestep➛➛translatedT","type":"step","ref":""},{"name":"{{step[1f73b712-932a-47df-9dd5-646d1214ec3c].translatedTe}}","label":"Parsestep➛➛translatedTe","type":"step","ref":""},{"name":"{{step[1f73b712-932a-47df-9dd5-646d1214ec3c].translatedTex}}","label":"Parsestep➛➛translatedTex","type":"step","ref":""},{"name":"{{step[1f73b712-932a-47df-9dd5-646d1214ec3c].translatedText}}","label":"step➛Parse➛translatedText","type":"step","ref":""}]</label_cache>
+        <master>true</master>
+        <name>Translate Text</name>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Translate Text">b4450ae4db85af005c378a8b3a96194b</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>jonatan.jardi@servicenow.com</sys_created_by>
+        <sys_created_on>2018-10-06 12:39:36</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>0811ee68dbc5af005c378a8b3a9619ce</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Translate Text</sys_name>
+        <sys_package display_value="Jonny Spoke" source="x_snc_jonny_spoke">2a2ed059db74a7005c378a8b3a96193b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Jonny Spoke">2a2ed059db74a7005c378a8b3a96193b</sys_scope>
+        <sys_update_name>sys_hub_action_type_snapshot_0811ee68dbc5af005c378a8b3a9619ce</sys_update_name>
+        <sys_updated_by>jonatan.jardi@servicenow.com</sys_updated_by>
+        <sys_updated_on>2018-10-13 12:41:48</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_variable_value action="delete_multiple" query="document_key=0811ee68dbc5af005c378a8b3a9619ce"/>
+    <sys_element_mapping action="delete_multiple" query="id=0811ee68dbc5af005c378a8b3a9619ce"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>translated_text</field>
+        <id>0811ee68dbc5af005c378a8b3a9619ce</id>
+        <sys_created_by>jonatan.jardi@servicenow.com</sys_created_by>
+        <sys_created_on>2018-10-06 12:39:38</sys_created_on>
+        <sys_id>681122a8dbc5af005c378a8b3a961953</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jonatan.jardi@servicenow.com</sys_updated_by>
+        <sys_updated_on>2018-10-06 12:39:38</sys_updated_on>
+        <table>var__m_sys_hub_action_output_0811ee68dbc5af005c378a8b3a9619ce</table>
+        <value>{{step[1f73b712-932a-47df-9dd5-646d1214ec3c].translatedText}}</value>
+    </sys_element_mapping>
+</record_update>

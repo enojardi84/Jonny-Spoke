@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_snapshot">
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <annotation/>
+        <category display_value="Google Translate API">8035c6e4db85af005c378a8b3a961910</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Allows you to detect language of a text using the Google Translate API</description>
+        <internal_name>detect_language</internal_name>
+        <label_cache>[{"name":"{{action.text_to_translate}}","label":"action➛Text","type":"action","ref":""},{"name":"{{step[f3a7da16-02b3-440c-bab5-65d47c22ef8c].u_key}}","label":"step➛Detect➛Key","type":"step","ref":""},{"name":"{{step[58be475c-ca17-459d-8432-2b03e3e9c399].d}}","label":"step➛Parse➛d","type":"step","ref":""},{"name":"{{step[58be475c-ca17-459d-8432-2b03e3e9c399].de}}","label":"step➛Parse➛de","type":"step","ref":""},{"name":"{{step[58be475c-ca17-459d-8432-2b03e3e9c399].det}}","label":"step➛Parse➛det","type":"step","ref":""},{"name":"{{step[58be475c-ca17-459d-8432-2b03e3e9c399].dete}}","label":"step➛Parse➛dete","type":"step","ref":""},{"name":"{{step[58be475c-ca17-459d-8432-2b03e3e9c399].detec}}","label":"step➛Parse➛detec","type":"step","ref":""},{"name":"{{step[58be475c-ca17-459d-8432-2b03e3e9c399].detect}}","label":"step➛Parse➛detect","type":"step","ref":""},{"name":"{{step[58be475c-ca17-459d-8432-2b03e3e9c399].detecte}}","label":"step➛Parse➛detecte","type":"step","ref":""},{"name":"{{step[58be475c-ca17-459d-8432-2b03e3e9c399].detected}}","label":"step➛Parse➛detected","type":"step","ref":""},{"name":"{{step[58be475c-ca17-459d-8432-2b03e3e9c399].detectedL}}","label":"step➛Parse➛detectedL","type":"step","ref":""},{"name":"{{step[58be475c-ca17-459d-8432-2b03e3e9c399].detectedLa}}","label":"step➛Parse➛detectedLa","type":"step","ref":""},{"name":"{{step[58be475c-ca17-459d-8432-2b03e3e9c399].detectedLan}}","label":"step➛Parse➛detectedLan","type":"step","ref":""},{"name":"{{step[58be475c-ca17-459d-8432-2b03e3e9c399].detectedLang}}","label":"step➛Parse➛detectedLang","type":"step","ref":""},{"name":"{{step[58be475c-ca17-459d-8432-2b03e3e9c399].detectedLangu}}","label":"step➛Parse➛detectedLangu","type":"step","ref":""},{"name":"{{step[58be475c-ca17-459d-8432-2b03e3e9c399].detectedLangua}}","label":"step➛Parse➛detectedLangua","type":"step","ref":""},{"name":"{{step[58be475c-ca17-459d-8432-2b03e3e9c399].detectedLanguag}}","label":"step➛Parse➛detectedLanguag","type":"step","ref":""},{"name":"{{step[58be475c-ca17-459d-8432-2b03e3e9c399].detectedLanguage}}","label":"step➛Parse➛detectedLanguage","type":"step","ref":""},{"name":"{{step[f3a7da16-02b3-440c-bab5-65d47c22ef8c].response_body}}","label":"step➛Detect➛Response Body","type":"step","ref":""}]</label_cache>
+        <master>true</master>
+        <name>Detect Language</name>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Detect Language">2d665ebadb8de3405c378a8b3a961930</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>jonatan.jardi@servicenow.com</sys_created_by>
+        <sys_created_on>2018-10-13 12:04:32</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>be2c9efedb8de3405c378a8b3a9619a4</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Detect Language</sys_name>
+        <sys_package display_value="Jonny Spoke" source="x_snc_jonny_spoke">2a2ed059db74a7005c378a8b3a96193b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Jonny Spoke">2a2ed059db74a7005c378a8b3a96193b</sys_scope>
+        <sys_update_name>sys_hub_action_type_snapshot_be2c9efedb8de3405c378a8b3a9619a4</sys_update_name>
+        <sys_updated_by>jonatan.jardi@servicenow.com</sys_updated_by>
+        <sys_updated_on>2018-10-13 12:42:44</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_variable_value action="delete_multiple" query="document_key=be2c9efedb8de3405c378a8b3a9619a4"/>
+    <sys_element_mapping action="delete_multiple" query="id=be2c9efedb8de3405c378a8b3a9619a4"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>detected_language</field>
+        <id>be2c9efedb8de3405c378a8b3a9619a4</id>
+        <sys_created_by>jonatan.jardi@servicenow.com</sys_created_by>
+        <sys_created_on>2018-10-13 12:04:34</sys_created_on>
+        <sys_id>432cdefedb8de3405c378a8b3a961900</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jonatan.jardi@servicenow.com</sys_updated_by>
+        <sys_updated_on>2018-10-13 12:04:34</sys_updated_on>
+        <table>var__m_sys_hub_action_output_be2c9efedb8de3405c378a8b3a9619a4</table>
+        <value>{{step[58be475c-ca17-459d-8432-2b03e3e9c399].detectedLanguage}}</value>
+    </sys_element_mapping>
+</record_update>

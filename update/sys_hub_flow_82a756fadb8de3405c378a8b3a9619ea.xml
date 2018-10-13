@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <annotation/>
+        <category display_value="Google Translate API">8035c6e4db85af005c378a8b3a961910</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>translate_text</internal_name>
+        <label_cache>[{"name":"subflow.to","label":"Input➛Language","reference":"","reference_display":"","type":"choice","base_type":"choice","column_name":""},{"name":"subflow.from","label":"Input➛From","reference":"","reference_display":"","type":"choice","base_type":"choice","column_name":""},{"name":"2d5cb2e9-60c6-4c70-97a8-95c43b5432d2.detected_language","label":"1➛Detected Language","reference_display":"Detected Language","type":"string","base_type":"string"},{"name":"subflow.text","label":"Input➛Text","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"463435b1-b934-4006-81ba-f442041a5a2c.translated_text","label":"1.1➛Detected Language","type":"string","base_type":"string"},{"name":"613900ee-639d-42bf-ad8a-f8e7a327dfdd.translated_text","label":"1➛Translated Text","reference_display":"Translated Text","type":"string","base_type":"string"},{"name":"c6d491dd-ec86-401f-8e9c-caa8aaff7242.detected_language","label":"1.1➛Detected Language","reference_display":"Detected Language","type":"string","base_type":"string"},{"name":"8131966b-f4fa-404d-b6d9-531f35caabb0.translated_text","label":"2➛Translated Text","reference_display":"Translated Text","type":"string","base_type":"string"},{"name":"20d31682-dbe1-429f-8387-a6378775e30d.detected_language","label":"1➛Detected Language","type":"string","base_type":"string"}]</label_cache>
+        <latest_snapshot>29a32eb6dbcde3405c378a8b3a96196c</latest_snapshot>
+        <master_snapshot>29a32eb6dbcde3405c378a8b3a96196c</master_snapshot>
+        <name>Auto Translation</name>
+        <outputs/>
+        <remote_trigger_id/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>true</show_draft_actions>
+        <show_triggered_flows>true</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>jonatan.jardi@servicenow.com</sys_created_by>
+        <sys_created_on>2018-10-13 11:44:50</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>82a756fadb8de3405c378a8b3a9619ea</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Auto Translation</sys_name>
+        <sys_package display_value="Jonny Spoke" source="x_snc_jonny_spoke">2a2ed059db74a7005c378a8b3a96193b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Jonny Spoke">2a2ed059db74a7005c378a8b3a96193b</sys_scope>
+        <sys_update_name>sys_hub_flow_82a756fadb8de3405c378a8b3a9619ea</sys_update_name>
+        <sys_updated_by>jonatan.jardi@servicenow.com</sys_updated_by>
+        <sys_updated_on>2018-10-13 12:37:17</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow>
+    <sys_variable_value action="delete_multiple" query="document_key=82a756fadb8de3405c378a8b3a9619ea"/>
+</record_update>

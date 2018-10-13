@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Translate Text">0811ee68dbc5af005c378a8b3a9619ce</action_type>
+        <action_type_parent/>
+        <comment>Translate the short description from English to Spanish</comment>
+        <compiled_snapshot display_value="">b4450ae4db85af005c378a8b3a96194b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Test Jonny Flow">03ff6ee4db09af005c378a8b3a961979</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>jonatan.jardi@servicenow.com</sys_created_by>
+        <sys_created_on>2018-10-06 13:44:48</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>9fff6ee4db09af005c378a8b3a96199d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Jonny Spoke" source="x_snc_jonny_spoke">2a2ed059db74a7005c378a8b3a96193b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Jonny Spoke">2a2ed059db74a7005c378a8b3a96193b</sys_scope>
+        <sys_update_name>sys_hub_action_instance_9fff6ee4db09af005c378a8b3a96199d</sys_update_name>
+        <sys_updated_by>jonatan.jardi@servicenow.com</sys_updated_by>
+        <sys_updated_on>2018-10-06 13:44:49</sys_updated_on>
+        <ui_id>32704017-33d6-4614-89f2-5a830f158682</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=9fff6ee4db09af005c378a8b3a96199d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9fff6ee4db09af005c378a8b3a96199d</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jonatan.jardi@servicenow.com</sys_created_by>
+        <sys_created_on>2018-10-06 13:44:49</sys_created_on>
+        <sys_id>d7ff6ee4db09af005c378a8b3a9619a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jonatan.jardi@servicenow.com</sys_updated_by>
+        <sys_updated_on>2018-10-06 13:44:49</sys_updated_on>
+        <value/>
+        <variable display_value="">d411ee68dbc5af005c378a8b3a9619fa</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=9fff6ee4db09af005c378a8b3a96199d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>text_to_translate</field>
+        <id>9fff6ee4db09af005c378a8b3a96199d</id>
+        <sys_created_by>jonatan.jardi@servicenow.com</sys_created_by>
+        <sys_created_on>2018-10-06 13:44:49</sys_created_on>
+        <sys_id>57ff6ee4db09af005c378a8b3a9619a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jonatan.jardi@servicenow.com</sys_updated_by>
+        <sys_updated_on>2018-10-06 13:44:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0811ee68dbc5af005c378a8b3a9619ce</table>
+        <value>{{Created or Updated_1.current.short_description}}</value>
+    </sys_element_mapping>
+</record_update>
